@@ -92,17 +92,21 @@ h2 {
 }
 
 .pr {
-    padding-top: 500px;
+    padding-top: 350px;
     width:  50%;
+
+    
+    
+    
     
    
 }
 
 .button {
-    position: absolute;
+    /* position: absolute;
     top: 75%;
     left: 50%;
-    transform translate(-50, -50) ;
+    transform translate(-50, -50) ; */
     display:  inline-flex;
     height: 200px;
     padding: 0;
@@ -132,11 +136,41 @@ h2 {
     padding: 0 24px;
     color: white;
     height:100%;
+    padding-top: 10px;
 }
 
 .button__icon {
     font-size: 1.5em;
     background: rgba(0, 0, 0, 0.08);
+}
+.shoe {
+    width: 200%;
+    display: inline-block;
+}
+
+#div.shoe {
+    display: inline-block;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#total {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
 }
 
 
