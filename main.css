@@ -70,11 +70,12 @@ h2 {
 
 
 .container  {
-    vertical-align: middle;
+    
     /* display: flex; */
     
     justify-content: center;
-    position: absolute;
+    
+    
     
   
 }
@@ -94,14 +95,7 @@ h2 {
 
 .pr {
     padding-top: 350px;
-    width:  50%;
-    display: inline-block;
-
-    
-    
-    
-    
-   
+    width:  50%;   
 }
 
 .button {
@@ -171,6 +165,11 @@ h2 {
     padding: 0 5px;
     vertical-align: top;
     margin-left: -10px; 
+}
+
+#prv {
+    margin: 0 auto;
+    width: 50%;
 }
 
 

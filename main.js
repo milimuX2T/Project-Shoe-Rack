@@ -19,7 +19,7 @@ fetch('https://tallbuoy.pythonanywhere.com/all/products/')
             '<img id="yeezy" class="boost" src='+element.img+' alt="yeezy 350 boost">'+
     '</div>'+
         
-        '<div class="pr">'+
+        '<div id="prv"class="pr">'+
             '<p>Original</p>'+
         '<h2>'+element.name+' </h2>'+
         
