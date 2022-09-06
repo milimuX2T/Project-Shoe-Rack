@@ -61,6 +61,12 @@
     </footer> -->
     
 
-<script src="main.js"></script>   
+<script src="main.js"></script> 
+<script src="main.js">
+    window.addEventListener("scroll",function(){
+		let header = this.document.querySelector("header");
+		header.classList.toggle("sticky", this.window.scrollY > 0);
+	}) 
+</script>  
 </body>
 </html>

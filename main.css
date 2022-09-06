@@ -140,7 +140,7 @@ h2 {
     background: rgba(0, 0, 0, 0.08);
 }
 .shoe {
-    width: 100%;
+    width: 150%;
     display: inline-block;
 }
 
@@ -170,12 +170,14 @@ h2 {
 #prv {
     margin: 0 auto;
     width: 50%;
+    padding-bottom: 40px;
 
 }
 
 #sho {
     width: 50%;
     float: right;
+    padding: auto;
 }
 
 

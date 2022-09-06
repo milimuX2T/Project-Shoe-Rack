@@ -41,3 +41,8 @@ fetch('https://tallbuoy.pythonanywhere.com/all/products/')
 		document.getElementById("total").innerHTML=total;
 		alert(""+name+" has been added to your cart, successfully. your invoice is JMIN0"+id+"");
 	}
+
+	window.addEventListener("scroll",function(){
+		let header = this.document.querySelector("header");
+		header.classList.toggle("sticky", this.window.scrollY > 0);
+	}) 
