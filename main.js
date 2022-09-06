@@ -15,7 +15,7 @@ fetch('https://tallbuoy.pythonanywhere.com/all/products/')
 		for (let i = 0; i < response.length; i++) {
 			const element = response[i];
 			document.getElementById("con").innerHTML +=
-			'<div class="shoe">'+
+			'<div id="sho" class="shoe">'+
             '<img id="yeezy" class="boost" src='+element.img+' alt="yeezy 350 boost">'+
     '</div>'+
         

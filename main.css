@@ -170,6 +170,12 @@ h2 {
 #prv {
     margin: 0 auto;
     width: 50%;
+
+}
+
+#sho {
+    width: 50%;
+    float: right;
 }
 
 
