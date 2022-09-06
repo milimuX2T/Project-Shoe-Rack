@@ -74,13 +74,14 @@ h2 {
     /* display: flex; */
     
     justify-content: center;
+    position: absolute;
     
   
 }
 
 .container h2, p{
     
-    justify-content: left;
+    justify-content: center;
     margin-top: 40px;
     
 }
@@ -94,6 +95,7 @@ h2 {
 .pr {
     padding-top: 350px;
     width:  50%;
+    display: inline-block;
 
     
     
@@ -144,7 +146,7 @@ h2 {
     background: rgba(0, 0, 0, 0.08);
 }
 .shoe {
-    width: 200%;
+    width: 100%;
     display: inline-block;
 }
 
