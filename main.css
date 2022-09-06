@@ -71,7 +71,7 @@ h2 {
 
 .container  {
     vertical-align: middle;
-    display: flex;
+    /* display: flex; */
     
     justify-content: center;
     
