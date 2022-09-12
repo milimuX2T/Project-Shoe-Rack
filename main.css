@@ -180,7 +180,14 @@ h2 {
     padding: auto;
 }
 
+@media screen and (min-width: 521px) {
+    /* body {
+        display: flex;
+        height: 10rem;
+        overflow: hidden;
+    } */
 
+}
     
 
 
