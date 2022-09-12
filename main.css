@@ -27,9 +27,11 @@ header {
 .logo {
     cursor: pointer;
     width: 900px;
-    
-    
 
+}
+
+.logo:hover{
+    color: #c67605;
 }
 
 .nav_links {
@@ -140,7 +142,7 @@ h2 {
     background: rgba(0, 0, 0, 0.08);
 }
 .shoe {
-    width: 150%;
+    width: 100%;
     display: inline-block;
 }
 
